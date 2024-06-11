@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    a.hover-effect {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #008CBA;
+      color: white;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    a.hover-effect:hover {
+      background-color: #005f6b;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline;
+      margin: 0 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #008CBA;
+    }
+  </style>
+  <title>Interactive Elements</title>
+</head>
+<body>
+  <h1>Welcome to Interactive Elements</h1>
+  <p>Try out the interactive elements below!</p>
+  <button onclick="alert('You clicked the button!')">Click me</button>
+  <a href="#" class="hover-effect">Hover over me</a>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</body>
+</html>
